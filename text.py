@@ -1,4 +1,4 @@
-file=open("C:/Users/yarde/Dropbox/My PC (LAPTOP-3RT6OQVU)/Desktop/pythonprogram/2/text.txt")
+file=open("text.txt")
 def revword (word:str):
     new_word=word[::-1]
     new_word=new_word.lower()
