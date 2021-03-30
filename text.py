@@ -3,7 +3,7 @@ def revword (word:str):
     new_word=new_word.lower()
     return new_word
 
-def countword (file):
+def countword ():
     file=open("text.txt")
     for line in file:
         line = line.strip("\n")
